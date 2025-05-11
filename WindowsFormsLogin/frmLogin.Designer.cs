@@ -36,6 +36,7 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.picHide = new System.Windows.Forms.PictureBox();
+            this.lblSignup = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHide)).BeginInit();
@@ -111,13 +112,26 @@
             this.picHide.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picHide_MouseDown);
             this.picHide.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picHide_MouseUp);
             // 
+            // lblSignup
+            // 
+            this.lblSignup.AutoSize = true;
+            this.lblSignup.ForeColor = System.Drawing.Color.Yellow;
+            this.lblSignup.Location = new System.Drawing.Point(52, 177);
+            this.lblSignup.Name = "lblSignup";
+            this.lblSignup.Size = new System.Drawing.Size(49, 16);
+            this.lblSignup.TabIndex = 4;
+            this.lblSignup.Text = "Signup";
+            this.lblSignup.Click += new System.EventHandler(this.lblSignup_Click);
+            this.lblSignup.MouseHover += new System.EventHandler(this.lblSignup_MouseHover);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(382, 196);
+            this.ClientSize = new System.Drawing.Size(382, 205);
+            this.Controls.Add(this.lblSignup);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.picHide);
@@ -146,6 +160,7 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.PictureBox picHide;
+        private System.Windows.Forms.Label lblSignup;
     }
 }
 
