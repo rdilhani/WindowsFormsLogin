@@ -289,7 +289,7 @@
   <data name="picHide.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cgAAEnIBXmVb4wAABApJREFUaEPtmElL9DAYgL8/7r7hgrsgogcVFFwuLgcRcT2oVy8qenJfUAQPiuL7
+        cQAAEnEB89x6jgAABApJREFUaEPtmElL9DAYgL8/7r7hgrsgogcVFFwuLgcRcT2oVy8qenJfUAQPiuL7
         8cRkiPnaaZOOH2PtA0Nn2kn7Pk3yZvkjv4BCMi8UknmhkMwLhWReKCTzQiFZTZyfn+tv/vwISQTr6upk
         cnJSn/Gj6iUvLi6kublZent7lWhIjVa1JIJNTU1KENHQJvttkicnJ7K1tSVzc3MyNjYmfX190tHRIe3t
         7erY39+vzs/Pz8v6+rocHh7qkp9cXl6WBDkiHErFJF9fX2VnZ0eGh4elvr5eGhsbpaGhQX1vaWlRwY6M
@@ -309,4 +309,7 @@
         IgjBkj+JQjIvFJJ5oZDMC4VkXigk88IvkBT5CwbT8TCtQo+UAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
